@@ -1,0 +1,9 @@
+<input
+  type="text"
+  [value]="val"
+  (keypress)="keyPressNumbers($event)"
+  [min]="min"
+  [max]="max"
+  [maxLength]="maxLength"
+  (input)="userChange($event)"
+/>

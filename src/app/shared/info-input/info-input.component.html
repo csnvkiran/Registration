@@ -1,0 +1,12 @@
+<input
+  type="text"
+  [value]="val"
+  (focus)="onfocusin($event)"
+  (focusout)="onfocusout($event)"
+  [maxLength]="maxLength"
+  (input)="userChange($event)"
+/>
+<div *ngIf="showtoggle && infoEnabled" class="infocontainer">
+  <div>{{ infoMessage }}</div>
+  <img [src]="infoImage" />
+</div>

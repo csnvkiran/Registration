@@ -1,0 +1,26 @@
+:host {
+  display: grid;
+
+  input {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid darkgrey;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .infocontainer {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid darkgrey;
+    //border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    //border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+}
