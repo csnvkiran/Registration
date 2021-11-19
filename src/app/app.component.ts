@@ -23,6 +23,7 @@ export class AppComponent {
       beer: new FormControl('', [Validators.required]),
       server: new FormControl(''),
       information: new FormControl(''),
+      infonew: new FormControl(''),
     });
   }
 }
