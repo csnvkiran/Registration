@@ -13,9 +13,9 @@ import { SharedFormsComponent } from './shared-forms.component';
   imports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     ShareformsRoutingModule,
-    ReactiveFormsModule,
   ],
   declarations: [
     CounterInputComponent,
