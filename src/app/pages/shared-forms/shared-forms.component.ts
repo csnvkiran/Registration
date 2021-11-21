@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-shared-forms',
   templateUrl: './shared-forms.component.html',
-  styleUrls: ['./shared-forms.component.css'],
+  styleUrls: ['./shared-forms.component.scss'],
 })
 export class SharedFormsComponent implements OnInit {
   constructor() {}
