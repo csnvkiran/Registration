@@ -2,8 +2,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
-import { RegistrationsModule } from './features/registrations/registrations.module';
-
 import { NumberInputComponent } from './shared/app-form/number-input/number-input.component';
 import { CounterInputComponent } from './shared/app-form/counter-input/counter-input.component';
 import { CountrySelectorComponent } from './shared/app-form/country-selector/country-selector.component';
