@@ -7,10 +7,6 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { RegistrationsModule } from './features/registrations/registrations.module';
 
-import { NumberInputComponent } from './shared/app-form/number-input/number-input.component';
-import { CounterInputComponent } from './shared/app-form/counter-input/counter-input.component';
-import { CountrySelectorComponent } from './shared/app-form/country-selector/country-selector.component';
-import { InfoInputComponent } from './shared/app-form/info-input/info-input.component';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -22,14 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserAnimationsModule,
     AppRoutingModule,
   ],
-  declarations: [
-    AppComponent,
-    HelloComponent,
-    CounterInputComponent,
-    NumberInputComponent,
-    CountrySelectorComponent,
-    InfoInputComponent,
-  ],
+  declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

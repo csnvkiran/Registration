@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 import { RegistrationsModule } from './features/registrations/registrations.module';
 
@@ -13,9 +14,11 @@ import { SharedFormsComponent } from './shared-forms.component';
 
 @NgModule({
   imports: [
+    CommonModule,
     FormsModule,
     BrowserAnimationsModule,
     ShareformsRoutingModule,
+    ReactiveFormsModule,
   ],
   declarations: [
     CounterInputComponent,
