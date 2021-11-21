@@ -11,6 +11,7 @@ import { NumberInputComponent } from './shared/app-form/number-input/number-inpu
 import { CounterInputComponent } from './shared/app-form/counter-input/counter-input.component';
 import { CountrySelectorComponent } from './shared/app-form/country-selector/country-selector.component';
 import { InfoInputComponent } from './shared/app-form/info-input/info-input.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   imports: [
@@ -19,6 +20,7 @@ import { InfoInputComponent } from './shared/app-form/info-input/info-input.comp
     RegistrationsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    AppRoutingModule,
   ],
   declarations: [
     AppComponent,
