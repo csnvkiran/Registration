@@ -11,7 +11,6 @@ import { InfoInputComponent } from './shared/app-form/info-input/info-input.comp
 import { ShareformsRoutingModule } from './shared-forms-routing.module';
 import { SharedFormsComponent } from './shared-forms.component';
 
-
 @NgModule({
   imports: [
     CommonModule,
@@ -28,3 +27,4 @@ import { SharedFormsComponent } from './shared-forms.component';
   ],
   bootstrap: [SharedFormsComponent],
 })
+export class SharedformsModule {}
