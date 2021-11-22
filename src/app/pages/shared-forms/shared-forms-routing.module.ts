@@ -10,4 +10,4 @@ const routes: Routes = [{ path: '', component: SharedFormsComponent }];
   exports: [RouterModule],
   providers: [],
 })
-export class ShareformsRoutingModule {}
+export class SharedformsRoutingModule {}

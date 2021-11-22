@@ -8,6 +8,7 @@ import { HelloComponent } from './hello.component';
 import { RegistrationsModule } from './features/registrations/registrations.module';
 
 import { AppRoutingModule } from './app-routing.module';
+import { SharedformsModule } from './pages/shared-forms/shared-forms.module';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    SharedformsModule,
   ],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
