@@ -15,6 +15,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
     SharedModule,
   ],
   declarations: [SharedFormsComponent],
+  export: [SharedFormsComponent]
   bootstrap: [],
 })
 export class SharedformsModule {}
