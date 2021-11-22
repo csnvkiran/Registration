@@ -11,13 +11,11 @@ import { NumberInputComponent } from './app-form/number-input/number-input.compo
   imports: [CommonModule, FormsModule, ReactiveFormsModule],
   declarations: [
     CounterInputComponent,
-    CounterInputComponent,
     InfoInputComponent,
     MobileInputComponent,
     NumberInputComponent,
   ],
   exports: [
-    CounterInputComponent,
     CounterInputComponent,
     InfoInputComponent,
     MobileInputComponent,

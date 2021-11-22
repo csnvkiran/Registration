@@ -14,8 +14,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
     SharedformsRoutingModule,
     SharedModule,
   ],
-  exports: [],
   declarations: [SharedFormsComponent],
-  bootstrap: [],
+  bootstrap: [SharedFormsComponent],
 })
 export class SharedformsModule {}
