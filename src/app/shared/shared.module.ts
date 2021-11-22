@@ -21,6 +21,8 @@ import { NumberInputComponent } from './app-form/number-input/number-input.compo
     InfoInputComponent,
     MobileInputComponent,
     NumberInputComponent,
+    CommonModule,
+    
   ],
 })
 export class SharedModule {}

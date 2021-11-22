@@ -14,10 +14,10 @@ import { InfoInputComponent } from 'src/app/shared/app-form/info-input/info-inpu
     ReactiveFormsModule,
     SharedformsRoutingModule,
     SharedModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
-  declarations: [
-    InfoInputComponent
-  ],
+  declarations: [InfoInputComponent],
   bootstrap: [SharedFormsComponent],
 })
 export class SharedformsModule {}
