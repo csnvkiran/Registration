@@ -26,7 +26,7 @@
   <div class="form-control">
     <label>Amount of beer: </label>
     <app-number-input formControlName="beer" [maxLength]="5"></app-number-input>
-    <div *ngIf="form.get('beer').errors">
+    <div *ngIf="myform.get('beer').errors">
       Name must be at least 4 characters long.
     </div>
   </div>
