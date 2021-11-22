@@ -6,7 +6,7 @@ const routes: Routes = [{ path: '', component: SharedFormsComponent }];
 
 @NgModule({
   declarations: [],
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
   providers: [],
 })

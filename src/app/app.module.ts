@@ -18,7 +18,6 @@ import { SharedModule } from './shared/shared.module';
     AppRoutingModule,
     SharedModule,
   ],
-  exports: [FormsModule, ReactiveFormsModule],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
 })

@@ -5,7 +5,6 @@ import { CommonModule } from '@angular/common';
 import { SharedformsRoutingModule } from './shared-forms-routing.module';
 import { SharedFormsComponent } from './shared-forms.component';
 import { SharedModule } from 'src/app/shared/shared.module';
-import { InfoInputComponent } from 'src/app/shared/app-form/info-input/info-input.component';
 
 @NgModule({
   imports: [
@@ -15,8 +14,8 @@ import { InfoInputComponent } from 'src/app/shared/app-form/info-input/info-inpu
     SharedformsRoutingModule,
     SharedModule,
   ],
-  exports: [CommonModule, FormsModule, ReactiveFormsModule],
-  declarations: [InfoInputComponent, SharedFormsComponent],
+  exports: [],
+  declarations: [SharedFormsComponent],
   bootstrap: [],
 })
 export class SharedformsModule {}
