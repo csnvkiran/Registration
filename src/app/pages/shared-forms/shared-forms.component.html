@@ -1,4 +1,4 @@
-<form class="container" [formGroup]="form">
+<form class="container" [formGroup]="myform">
   <h1>Order your drinks</h1>
 
   <div class="form-control">
@@ -72,11 +72,11 @@
 </div> -->
 
   <pre
-    >{{ form.value | json }}
+    >{{ myform.value | json }}
 </pre
   >
-  <p>Form Value: {{ form.value | json }}</p>
-  <p>Form Valid: {{ form.valid }}</p>
+  <p>Form Value: {{ myform.value | json }}</p>
+  <p>Form Valid: {{ myform.valid }}</p>
 </form>
 
 <!-- <form #form="ngForm" (ngSubmit)="submit(form.value)">

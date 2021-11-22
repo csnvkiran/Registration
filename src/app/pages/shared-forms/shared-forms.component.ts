@@ -9,10 +9,10 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 export class SharedFormsComponent {
   // constructor() {}
 
-  form: FormGroup;
+  myform: FormGroup;
 
   ngOnInit() {
-    this.form = this.createForm();
+    this.myform = this.createForm();
   }
 
   createForm() {
