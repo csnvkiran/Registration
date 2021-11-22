@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { CounterInputComponent } from './app-form/counter-input/counter-input.component';
 import { InfoInputComponent } from './app-form/info-input/info-input.component';
@@ -7,7 +8,7 @@ import { MobileInputComponent } from './app-form/mobile-input/mobile-input.compo
 import { NumberInputComponent } from './app-form/number-input/number-input.component';
 
 @NgModule({
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule],
   declarations: [
     CounterInputComponent,
     CounterInputComponent,
@@ -22,7 +23,8 @@ import { NumberInputComponent } from './app-form/number-input/number-input.compo
     MobileInputComponent,
     NumberInputComponent,
     CommonModule,
-    
+    FormsModule,
+    ReactiveFormsModule,
   ],
 })
 export class SharedModule {}
