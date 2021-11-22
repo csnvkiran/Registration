@@ -15,6 +15,7 @@ import { InfoInputComponent } from 'src/app/shared/app-form/info-input/info-inpu
     SharedformsRoutingModule,
     SharedModule,
   ],
+  exports: [CommonModule, FormsModule, ReactiveFormsModule],
   declarations: [InfoInputComponent],
   bootstrap: [SharedFormsComponent],
 })
