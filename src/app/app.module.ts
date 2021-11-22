@@ -9,6 +9,7 @@ import { RegistrationsModule } from './features/registrations/registrations.modu
 
 import { AppRoutingModule } from './app-routing.module';
 import { SharedformsModule } from './pages/shared-forms/shared-forms.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   imports: [
@@ -19,7 +20,9 @@ import { SharedformsModule } from './pages/shared-forms/shared-forms.module';
     BrowserAnimationsModule,
     AppRoutingModule,
     SharedformsModule,
+    SharedModule,
   ],
+  export: [FormsModule, ReactiveFormsModule, SharedModule],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
 })

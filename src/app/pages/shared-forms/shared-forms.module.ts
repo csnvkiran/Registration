@@ -4,11 +4,7 @@ import { CommonModule } from '@angular/common';
 
 import { SharedformsRoutingModule } from './shared-forms-routing.module';
 import { SharedFormsComponent } from './shared-forms.component';
-
-import { CounterInputComponent } from 'src/app/shared/app-form/counter-input/counter-input.component';
-import { NumberInputComponent } from 'src/app/shared/app-form/number-input/number-input.component';
-import { CountrySelectorComponent } from 'src/app/shared/app-form/country-selector/country-selector.component';
-import { InfoInputComponent } from 'src/app/shared/app-form/info-input/info-input.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
@@ -16,14 +12,9 @@ import { InfoInputComponent } from 'src/app/shared/app-form/info-input/info-inpu
     FormsModule,
     ReactiveFormsModule,
     SharedformsRoutingModule,
+    SharedModule,
   ],
-  declarations: [
-    CounterInputComponent,
-    NumberInputComponent,
-    CountrySelectorComponent,
-    InfoInputComponent,
-    SharedFormsComponent,
-  ],
+  declarations: [],
   bootstrap: [SharedFormsComponent],
 })
 export class SharedformsModule {}
